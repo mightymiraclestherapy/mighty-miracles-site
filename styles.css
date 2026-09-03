@@ -5,9 +5,9 @@
          --teal is decorative-only (gradients/washes) — never used for text or
          borders that need to meet contrast requirements. --teal-dark and
          --teal-deep carry text/UI-control and solid-background duty instead. */
-  --teal: #a8ddd5;
-      --teal-dark: #37716a;
-      --teal-deep: #2f6863;
+  --teal: #f3b8cc;
+      --teal-dark: #a83a63;
+      --teal-deep: #8a2f52;
       --coral: #a8523a;
       --coral-dark: #8a4230;
       --pink: #f0a8be;
@@ -173,7 +173,7 @@ a { color: inherit; }
 /* Hero */
 .hero {
       padding: 80px 0 90px;
-      background: linear-gradient(160deg, #e3f5f1 0%, var(--cream) 55%);
+      background: linear-gradient(160deg, #fbe7ef 0%, var(--cream) 55%);
 }
 .hero .container {
       display: grid;
