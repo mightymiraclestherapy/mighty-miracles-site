@@ -12,6 +12,8 @@
       --coral-dark: #b01d56;
       --pink: #f4a3b3;
       --blue: #9ecbe8;
+      --yellow: #fbe9a0;
+      --green: #b8dfa8;
       --cream: #fff8f2;
       --cream-alt: #fbeae0;
       --ink: #4a4458;
@@ -279,8 +281,9 @@ section { padding: 84px 0; }
       height: 6px;
       background: var(--teal-dark);
 }
-.service-card:nth-child(3n+2)::before { background: var(--pink); }
-.service-card:nth-child(3n+3)::before { background: var(--blue); }
+.service-card:nth-child(4n+2)::before { background: var(--yellow); }
+.service-card:nth-child(4n+3)::before { background: var(--green); }
+.service-card:nth-child(4n+4)::before { background: var(--blue); }
 .service-card img { height: 170px; width: 100%; object-fit: cover; }
 .service-card .body { padding: 22px; }
 .service-card h3 {
@@ -324,6 +327,7 @@ section { padding: 84px 0; }
 
 .about h2 { color: var(--teal-dark); font-size: clamp(1.5rem, 3vw, 2.1rem); margin-top:0; }
 .about-lead { color: var(--ink-soft); margin: -6px 0 18px; font-size: 1rem; }
+.about .mission { font-size: 1.05rem; font-weight: 600; color: var(--coral-dark); border-left: 4px solid var(--green); padding-left: 14px; margin: 0 0 18px; }
 .about .badge {
       display: inline-block;
       background: var(--teal-dark);
