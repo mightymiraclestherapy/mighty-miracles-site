@@ -8,8 +8,8 @@
   --teal: #f3b8cc;
       --teal-dark: #a83a63;
       --teal-deep: #8a2f52;
-      --coral: #a8523a;
-      --coral-dark: #8a4230;
+      --coral: #b8386c;
+      --coral-dark: #9c2d5a;
       --pink: #f0a8be;
       --blue: #9ecbe8;
       --cream: #fff8f2;
@@ -61,7 +61,7 @@ a { color: inherit; }
 .btn-primary {
       background: var(--coral);
       color: var(--white);
-      box-shadow: 0 6px 16px rgba(168, 82, 58, 0.35);
+      box-shadow: 0 6px 16px rgba(184, 56, 108, 0.35);
 }
 .btn-primary:hover { background: var(--coral-dark); }
 .btn-secondary {
