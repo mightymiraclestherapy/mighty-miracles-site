@@ -285,7 +285,6 @@ section { padding: 84px 0; }
 .service-card:nth-child(4n+3)::before { background: var(--green); }
 .service-card:nth-child(4n+4)::before { background: var(--blue); }
 .service-card img { height: 170px; width: 100%; object-fit: cover; }
-.service-card:nth-child(1) img { height: 340px; }
 .service-card .body { padding: 22px; }
 .service-card h3 {
       margin: 0 0 8px;
