@@ -313,14 +313,14 @@ section { padding: 84px 0; }
 .about-art::before {
       width: 140px;
       height: 140px;
-      background: var(--blue);
+      background: var(--yellow);
       top: -30px;
       left: -30px;
 }
 .about-art::after {
       width: 110px;
       height: 110px;
-      background: var(--pink);
+      background: var(--green);
       bottom: -26px;
       right: -26px;
 }
@@ -355,9 +355,9 @@ section { padding: 84px 0; }
       border-radius: var(--radius);
       padding: 26px;
 }
-.testimonial-grid .testimonial-card:nth-child(2) { border-left-color: var(--pink); }
-.testimonial-grid .testimonial-card:nth-child(3) { border-left-color: var(--blue); }
-.testimonial-grid .testimonial-card:nth-child(4) { border-left-color: var(--coral); }
+.testimonial-grid .testimonial-card:nth-child(2) { border-left-color: var(--yellow); }
+.testimonial-grid .testimonial-card:nth-child(3) { border-left-color: var(--green); }
+.testimonial-grid .testimonial-card:nth-child(4) { border-left-color: var(--blue); }
 .testimonial-card p.quote {
       font-style: italic;
       color: var(--ink);
@@ -369,7 +369,11 @@ section { padding: 84px 0; }
 .faq { background: var(--white); }
 .faq-item {
       border-bottom: 1px solid rgba(44,53,56,0.1);
+      border-left: 4px solid var(--teal-dark); padding-left: 14px;
 }
+.faq-item:nth-child(4n+2) { border-left-color: var(--yellow); }
+.faq-item:nth-child(4n+3) { border-left-color: var(--green); }
+.faq-item:nth-child(4n+4) { border-left-color: var(--blue); }
 .faq-item summary {
       padding: 20px 4px;
       font-weight: 600;
