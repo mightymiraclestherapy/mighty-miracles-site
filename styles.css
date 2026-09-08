@@ -294,6 +294,19 @@ section { padding: 84px 0; }
 }
 .service-card p { margin: 0; color: var(--ink-soft); font-size: 0.95rem; }
 
+/* Pediatric Splinting */
+.splinting { background: var(--cream-alt); }
+.splinting-art {
+  max-width: 720px;
+  margin: 0 auto;
+}
+.splinting-art img {
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  width: 100%;
+  display: block;
+}
+
 /* About */
 .about .container {
       display: grid;
